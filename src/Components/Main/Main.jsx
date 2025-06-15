@@ -20,7 +20,7 @@ const Main = () => {
 
             {/* card section  */}
             <CardSection/>
-            
+
             {/* input section */}
             <InputSection/>
         </div>
