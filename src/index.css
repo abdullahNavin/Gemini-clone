@@ -1,1 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 @import "tailwindcss";
+
+.sidebar img {
+    width: 20px;
+}
+*{
+    font-family: 'outfit', sans-serif;
+}
+.greeting{
+    background: -webkit-linear-gradient(160deg, #4b90ff, #ff5546);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

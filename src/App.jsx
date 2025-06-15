@@ -4,10 +4,10 @@ import Main from './Components/Main/Main';
 
 const App = () => {
     return (
-        <>
+        <div className='flex'>
             <Sidebar></Sidebar>
             <Main></Main>
-        </>
+        </div>
     );
 };
 
