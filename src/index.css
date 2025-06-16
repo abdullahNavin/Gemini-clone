@@ -4,12 +4,37 @@
 .sidebar img {
     width: 20px;
 }
-*{
+
+* {
     font-family: 'outfit', sans-serif;
 }
-.greeting{
+
+.greeting {
     background: -webkit-linear-gradient(160deg, #4b90ff, #ff5546);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.noScrollBar::-webkit-scrollbar {
+    display: none;
+
+}
+
+.loading hr {
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, #4b90ff, #ffffff, #79abfb);
+    background-size: 800px 100%;
+    animation: loader 3s linear infinite;
+}
+
+@keyframes loader{
+    0%{
+        background-position: -800px 0;
+    }
+    100%{
+        background-position: 800px 0;
+    }
 }

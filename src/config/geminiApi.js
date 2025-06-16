@@ -8,6 +8,7 @@ async function geminiFn(prompt) {
     contents: prompt,
   });
   console.log(response.text);
+  return response.text
 }
 
 export default geminiFn;
